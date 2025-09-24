@@ -1,0 +1,106 @@
+<resources>
+    <string name="launcher_activity_label">Canvas Launcher</string>
+
+    <string name="details_sheet_debug_icon">Debug icon</string>
+    <string name="details_sheet_accessibility_open_result">Open</string>
+    <string name="details_sheet_add_shortcut">Add shortcut</string>
+    <string name="details_sheet_add_widget">Add widget</string>
+    <string name="details_sheet_hide_result">Hide</string>
+    <string name="details_sheet_uninstall_app">Uninstall</string>
+    <string name="details_sheet_show_app_info">App info</string>
+    <string name="details_sheet_open_store_page">View in store</string>
+    <string name="details_sheet_unpin_shortcut">Remove shortcut</string>
+    <string name="details_sheet_open_app_manager">View in App Manager</string>
+    <string name="details_sheet_star">Add to favorites</string>
+    <string name="details_sheet_unstar">Remove from favorites</string>
+    <string name="details_sheet_rename">Rename</string>
+    <string name="details_sheet_change_icon">Change icon</string>
+    <string name="details_sheet_edit_tags">Edit tags</string>
+
+    <string name="pin_shortcut_activity_title">Pin shortcut</string>
+    <string name="pin_shortcut_confirm">Add shortcut</string>
+    <string name="pin_shortcut_cancel">Cancel</string>
+    <string name="pin_shortcut_possible_duplicate">Another shortcut with the same name already exists</string>
+
+    <string name="onboarding_title">Welcome to Canvas Launcher!</string>
+    <string name="onboarding_description">Some optional features require additional permissions to work</string>
+    <string name="onboarding_default_launcher">Set as default home app</string>
+    <string name="onboarding_default_launcher_description">Also allows searching for app shortcuts</string>
+    <string name="onboarding_confirm">Okay</string>
+
+    <string name="icon_debug_icon">"Icon: "</string>
+    <string name="icon_debug_background">"Background: "</string>
+    <string name="icon_debug_foreground">"Foreground: "</string>
+    <string name="icon_debug_monochrome">"Monochrome: "</string>
+    <string name="icon_debug_title">Icon Debug</string>
+    <string name="icon_debug_close">Close</string>
+
+    <string name="rename_dialog_title">Rename %s</string>
+    <string name="rename_dialog_confirm">Rename</string>
+    <string name="rename_dialog_cancel">Cancel</string>
+    <string name="rename_dialog_accessibility_reset">Reset</string>
+
+    <string name="change_icon_dialog_title">Change icon of %s</string>
+    <string name="change_icon_dialog_confirm">Change icon</string>
+    <string name="change_icon_dialog_cancel">Cancel</string>
+    <string name="change_icon_dialog_back">Back</string>
+    <string name="change_icon_dialog_default_icon">Default</string>
+    <string name="change_icon_dialog_search">Search</string>
+    <string name="change_icon_dialog_accessibility_default_icon">Set default icon</string>
+    <string name="change_icon_dialog_accessibility_select_icon_pack">Select icon from this icon pack</string>
+    <string name="change_icon_dialog_accessibility_back_to_choose_icon_pack">Back</string>
+    <string name="change_icon_dialog_accessibility_select_icon">Select icon</string>
+
+    <string name="edit_tags_dialog_title">Edit tags of %s</string>
+    <string name="edit_tags_dialog_confirm">Edit tags</string>
+    <string name="edit_tags_dialog_cancel">Cancel</string>
+    <string name="edit_tags_dialog_add_tag">Add tag</string>
+    <string name="add_tag_confirm">Add tag</string>
+    <string name="add_tag_cancel">Cancel</string>
+    <string name="add_tag_error_reserved">Reserved for internal use</string>
+
+    <string name="empty_widgets_screen">Welcome to Canvas Launcher\nStart typing to search for apps, shortcuts, and contacts\nLong press to add widgets</string>
+
+    <plurals name="add_widget_sheet_generic_description">
+        <item quantity="one">%d widget</item>
+        <item quantity="other">%d widgets</item>
+    </plurals>
+    <string name="add_widget_sheet_accessibility_widget_preview">Widget preview</string>
+    <string name="add_widget_sheet_accessibility_add_widget">Add widget</string>
+
+    <string name="widget_details_reorder">Reorder widgets</string>
+    <string name="widget_details_remove">Remove widget</string>
+    <string name="widget_details_move">Move to page …</string>
+    <string name="widget_details_add_widget">Add new widget</string>
+    <string name="widget_details_reconfigure">Configure widget</string>
+
+    <string name="reorder_widgets_confirm">Okay</string>
+    <string name="reorder_widgets_cancel">Cancel</string>
+    <string name="reorder_widgets_title">Reorder Widgets</string>
+    <string name="reorder_widgets_accessibility_drag_handle">Drag to reorder</string>
+    <string name="reorder_widgets_label_weight">Weight</string>
+
+    <string name="move_widget_cancel">Cancel</string>
+    <string name="move_widget_title">Move %s</string>
+    <string name="move_widget_add_page">Add page</string>
+    <string name="move_widget_empty_page">Empty</string>
+    <string name="move_widget_page_name">Page %s</string>
+    <string name="move_widget_current_page_name">Page %s (current)</string>
+
+    <string name="snackbar_undo_hide_text">Result hidden</string>
+    <string name="snackbar_undo_rename_text">Result renamed</string>
+    <string name="snackbar_undo">Undo</string>
+
+    <string name="category_game">game</string>
+    <string name="category_audio">audio</string>
+    <string name="category_video">video</string>
+    <string name="category_image">image</string>
+    <string name="category_social">social</string>
+    <string name="category_news">news</string>
+    <string name="category_maps">maps</string>
+    <string name="category_productivity">productivity</string>
+    <string name="category_accessibility">accessibility</string>
+
+    <string name="accessibility_expand">Expand</string>
+    <string name="accessibility_collapse">Collapse</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Request to uninstall an app from the details sheet -->
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <!-- Display contacts in search results (optional) -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- Display calendar events in search results (optional) -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+    <queries>
+        <!-- Query apps that have an activity to display in the launcher -->
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+
+        <!-- Query apps that don't have an activity on the home screen, but can add shortcuts -->
+        <!-- I'm not sure if this works for apps. If it doesn't, the only other way may be to declare QUERY_ALL_PACKAGES -->
+        <intent>
+            <action android:name="android.intent.action.CREATE_SHORTCUT" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".CanvasLauncherApplication"
+        android:allowBackup="true" />
+</manifest>

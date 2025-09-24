@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Canvas Launcher</string>
+
+    <string name="generic_cancel">Cancel</string>
+
+    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
+
+    <string name="result_metronome">Metronome</string>
+    <string name="result_openurl">Open URL</string>
+
+    <string name="web_search">Search the Web for %s</string>
+    <string name="wikipedia_search">Search Wikipedia for %s</string>
+    <string name="app_store_search">Search for more apps</string>
+
+    <string name="metronome_bpm">%s bpm</string>
+    <string name="accessibility_metronome_pause">Pause metronome</string>
+    <string name="accessibility_metronome_resume">Resume metronome</string>
+
+    <string name="accessibility_open_search_result">Open</string>
+    <string name="accessibility_view_search_result_details">Show details</string>
+
+    <string name="setting_contacts_search">Search for contacts</string>
+    <string name="setting_contacts_search_description">Requires permission to read contacts</string>
+    <string name="setting_calendar_search">Search for calendar events</string>
+    <string name="setting_calendar_search_description">Requires permission to read your calendar</string>
+
+    <string name="event_description">%1$s, %2$s</string> <!-- 1: time, 2: location -->
+    <string name="event_description_time_recurring">Recurring</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty" />
+
+    <string name="pin_shortcut_already_pinned">Shortcut already added</string>
+
+    <string name="charstream_error_end_of_input">Unexpected end of expression</string>
+    <string name="charstream_error_unexpected_character">Unexpected character %1$s</string>
+    <string name="math_result">%1$s</string>
+    <string name="math_error_fractional_factorial">Factorial of fractional number</string>
+    <string name="math_error_unknown_variable">Unknown variable %1$s</string>
+    <string name="math_error_unknown_function">Unknown function %1$s(%2$s)</string>
+    <string name="math_error_fun_of_inf">%s() of ∞</string>
+    <string name="math_error_fun_of_greater_1">%s() of >1 or &lt;-1</string>
+    <string name="math_error_fun_of_smaller_1">%s() of &lt;1</string>
+    <string name="math_error_fun_of_negative">%s() of negative number</string>
+    <string name="math_error_log_of_0">log() of base 0</string>
+    <string name="math_error_log_of_1">log() of base 1</string>
+    <string name="math_error_log_of_inf_inf">log(Inf, Inf)</string>
+    <string name="math_error_log_of_0_1">log(0, 1)</string>
+    <string name="unit_conversion_result">%1$s</string>
+    <string name="unit_conversion_error_unknown_unit">Unknown unit %1$s</string>
+    <string name="unit_conversion_error_incompatible_units">Incompatible units: %1$s (%2$s) and %3$s (%4$s)</string>
+    <string name="unit_conversion_error_number_format">Could not parse value %1$s</string>
+
+    <string name="tempo_larghissimo">Larghissimo</string>
+    <string name="tempo_grave">Grave</string>
+    <string name="tempo_adagio">Adagio</string>
+    <string name="tempo_andante">Andante</string>
+    <string name="tempo_moderato">Moderato</string>
+    <string name="tempo_allegro">Allegro</string>
+    <string name="tempo_presto">Presto</string>
+    <string name="tempo_prestissimo">Prestissimo</string>
+</resources>

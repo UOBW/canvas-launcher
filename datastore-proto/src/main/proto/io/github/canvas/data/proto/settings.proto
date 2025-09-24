@@ -1,0 +1,55 @@
+edition = "2024";
+package io.github.canvas.data.proto;
+
+option java_outer_classname = "SettingsProtoWrapper"; // Prevent name clash with SettingsProto
+option features.default_symbol_visibility = LOCAL_ALL;
+
+message SettingsProto {
+  bool contact_search = 1;
+  bool monochrome_icons = 2;
+  bool widgets_behind_keyboard = 3;
+  ButtonBehaviorProto ime_button_behavior = 4;
+  bool show_contact_shortcuts = 5;
+  string icon_pack = 6;
+  ButtonBehaviorProto space_key_behavior = 7;
+  bool app_store_search = 8;
+  MonochromeIconColorsProto monochrome_icon_colors = 9;
+  bool widgets_disabled = 10;
+  ThemeProto theme = 11;
+  InitialResultsProto initial_results = 12;
+  bool onboarding_shown = 13;
+  bool calendar_search = 14;
+  bool sort_results_by_usage = 15 [default = true];
+  bool show_developer_options = 16;
+
+  enum ButtonBehaviorProto {
+    BEHAVIOR_UNSPECIFIED = 0;
+    OPEN_FIRST_RESULT = 1;
+    HIDE_KEYBOARD = 2;
+    DO_NOTHING = 3;
+    CLEAR_SEARCH_TERM = 4;
+  }
+
+  enum MonochromeIconColorsProto {
+    COLORS_UNSPECIFIED = 0;
+    PRIMARY = 1;
+    SECONDARY = 2;
+    TERTIARY = 4;
+    BLACK = 5;
+    WHITE = 6;
+  }
+
+  enum ThemeProto {
+    THEME_UNSPECIFIED = 0;
+    FOLLOW_SYSTEM = 1;
+    LIGHT = 2;
+    DARK = 3;
+  }
+
+  enum InitialResultsProto {
+    RESULTS_UNSPECIFIED = 0;
+    FAVORITES = 1;
+    ALL_APPS = 2;
+    NOTHING = 3;
+  }
+}

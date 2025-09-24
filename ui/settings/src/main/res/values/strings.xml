@@ -1,0 +1,87 @@
+<resources>
+    <string name="activity_name">Canvas Settings</string>
+    <string name="accessibility_button_back_contentDescription">Navigate back to the previous screen</string>
+    <string name="empty" />
+
+    <string name="dialog_confirm">Okay</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="main_screen_title">Canvas Settings</string>
+    <string name="setting_open_wallpaper_picker">Change wallpaper</string>
+    <string name="setting_open_home_app_chooser">Change default launcher</string>
+
+    <string name="search_screen_title">Search</string>
+    <string name="search_screen_description">Sort by usage, hidden results</string>
+    <string name="setting_hide_contact_shortcuts">Hide shortcuts with the same name as a contact</string>
+    <string name="setting_app_store_search">Show app store search</string>
+    <string name="setting_initial_results">Initial results</string>
+    <string name="initial_results_favorites">Favorites</string>
+    <string name="initial_results_all_apps">All apps</string>
+    <string name="initial_results_nothing">Nothing</string>
+    <string name="search_sort_by_usage">Sort results by usage</string>
+    <string name="search_sort_by_usage_description">Usage data is only collected and stored while this setting is enabled</string>
+
+    <string name="ui_screen_title">UI</string>
+    <string name="ui_screen_description">Theme, icon pack, monochrome icons</string>
+    <string name="setting_monochrome_icons">Monochrome icons</string>
+    <string name="setting_widgets_enabled">Widgets</string>
+    <string name="setting_resize_widgets">Resize widgets</string>
+    <string name="setting_resize_widgets_description">Shrink widgets when the on-screen keyboard is visible, to prevent obstruction</string>
+    <string name="setting_ime_action">Keyboard search key behaviour</string>
+    <string name="setting_ime_action_description">May not be present on all keyboards</string>
+    <string name="setting_space_key_action">Keyboard space key behavior</string>
+    <string name="setting_space_key_action_description">May not work with all keyboards</string>
+    <string name="button_behavior_hide_keyboard">Hide keyboard</string>
+    <string name="button_behavior_open_result">Open top result</string>
+    <string name="button_behavior_clear_search_term">Clear search term</string>
+    <string name="button_behavior_do_nothing">Do nothing</string>
+    <string name="setting_icon_pack">Icon pack</string>
+    <string name="setting_icon_pack_system_icons">None</string>
+    <string name="setting_monochrome_icon_colors">Monochrome icon color scheme</string>
+    <string name="monochrome_icon_colors_primary">Primary</string>
+    <string name="monochrome_icon_colors_secondary">Secondary</string>
+    <string name="monochrome_icon_colors_tertiary">Tertiary</string>
+    <string name="monochrome_icon_colors_black">Black on white</string>
+    <string name="monochrome_icon_colors_white">White on black</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_follow_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="hidden_results_screen_title">Hidden search results</string>
+    <string name="no_hidden_results">Nothing here.\nLong press a search result and select Hide to hide it.</string>
+    <string name="accessibility_unhide_result">Show this search result again</string>
+
+    <string name="developer_options_screen_title">Developer options</string>
+    <string name="setting_show_onboarding_again">Show onboarding again</string>
+    <string name="setting_show_developer_options">Show developer options</string>
+
+    <string name="about_screen_title">About</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_version_format">%1$s (%2$s)</string> <!-- 1: version name, 2: version code -->
+    <string name="about_license_title">License</string>
+    <string name="about_source_code_title">Source code</string>
+    <string name="about_source_code_description">GitHub</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="about_developer_name" translatable="false">UOBW</string>
+    <string name="about_developer_url" translatable="false">https://uobw.github.io</string>
+    <string name="about_alpha_tester_title">Alpha tester</string>
+    <string name="about_alpha_tester_name" translatable="false">0y</string>
+    <string name="about_alpha_tester_url" translatable="false">https://github.com/0yqc</string>
+    <plurals name="about_developer_options_n_steps_away">
+        <item quantity="one">You are now %d step away from enabling developer options</item>
+        <item quantity="other">You are now %d steps away from enabling developer options</item>
+    </plurals>
+    <string name="about_developer_options_enabled">You have enabled developer options!</string>
+    <string name="about_developer_options_already_enabled">No need, you have already enabled developer options</string>
+    <string name="license_dialog_close">OK</string>
+
+    <string name="license_screen_title">Licenses</string>
+    <string name="license_screen_description">Open source software used by Canvas Launcher</string>
+    <string name="license_use_description">By %1$s, %2$s</string> <!-- 1: author, 2: license -->
+    <string name="license_use_details_author">By %s</string>
+    <string name="license_use_accessibility_show_details">Show details</string>
+    <string name="license_use_details_close">OK</string>
+
+    <string name="github_repo_url" translatable="false">https://github.com/UOBW/canvas-launcher</string>
+</resources>

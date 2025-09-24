@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Licenses used by Canvas Launcher or its dependencies -->
+    <string name="gnu_gpl_v3_name" translatable="false">GNU General Public License v3.0</string>
+    <string name="apache_2.0_name" translatable="false">Apache 2.0 license</string>
+    <string name="cc_by_sa_4.0_name" translatable="false">Creative Commons Attribution-ShareAlike 4.0 International license</string>
+    <string name="protobuf_license_name" translatable="false">BSD-like license</string>
+
+
+    <!-- Attribution to third-party software used by Canvas Launcher -->
+    <string name="reorderable_name" translatable="false">Reorderable</string>
+    <string name="reorderable_author" translatable="false">Calvin Liang</string>
+    <string name="reorderable_url" translatable="false">https://github.com/Calvin-LL/Reorderable</string>
+
+    <string name="widgetview_name" translatable="false">LauncherAppWidgetHostView</string>
+    <string name="widgetview_author" translatable="false">prom85</string>
+    <string name="widgetview_url" translatable="false">https://stackoverflow.com/a/79514075/16038079</string>
+
+    <string name="metronome_tempi_name" translatable="false">Metronome tempo names</string>
+    <string name="metronome_tempi_author" translatable="false">Wikipedia</string>
+    <string name="metronome_tempi_url" translatable="false">https://en.wikipedia.org/wiki/Tempo#Approximately_from_the_slowest_to_the_fastest</string>
+
+    <string name="aosp" translatable="false">The Android Open Source Project</string>
+    <string name="contact_icon_name" translatable="false">LetterTileDrawable</string>
+    <string name="contact_icon_url" translatable="false">https://github.com/LineageOS/android_packages_apps_Contacts/blob/lineage-21.0/src/com/android/contacts/lettertiles/LetterTileDrawable.java</string>
+    <string name="androidx_name" translatable="false">Android Jetpack</string>
+    <string name="androidx_url" translatable="false">https://github.com/androidx/androidx</string>
+    <string name="accompanist_name" translatable="false">Accompanist</string>
+    <string name="accompanist_url" translatable="false">https://github.com/google/accompanist</string>
+
+    <string name="jetbrains" translatable="false">JetBrains s.r.o.</string>
+    <string name="serialization_name" translatable="false">Kotlin Serialization</string>
+    <string name="serialization_url" translatable="false">https://github.com/Kotlin/kotlinx.serialization</string>
+
+    <string name="google" translatable="false">Google LLC</string>
+    <string name="protobuf_name" translatable="false">Protocol Buffers</string>
+    <string name="protobuf_url" translatable="false">https://github.com/protocolbuffers/protobuf</string>
+</resources>
