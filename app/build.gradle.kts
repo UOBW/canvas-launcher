@@ -15,8 +15,8 @@ android {
         applicationId = "io.github.canvas"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.0-alpha"
+        versionCode = 2
+        versionName = "0.1-beta"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         proguardFiles()
