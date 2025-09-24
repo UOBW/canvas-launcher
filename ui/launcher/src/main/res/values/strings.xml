@@ -59,7 +59,7 @@
     <string name="add_tag_cancel">Cancel</string>
     <string name="add_tag_error_reserved">Reserved for internal use</string>
 
-    <string name="empty_widgets_screen">Welcome to Canvas Launcher\nStart typing to search for apps, shortcuts, and contacts\nLong press to add widgets</string>
+    <string name="empty_widgets_screen">Welcome to Canvas Launcher\nStart typing to search for apps, contacts, calendar events, …\nLong press to add widgets</string>
 
     <plurals name="add_widget_sheet_generic_description">
         <item quantity="one">%d widget</item>
