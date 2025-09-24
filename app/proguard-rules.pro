@@ -11,3 +11,6 @@
 
 # Proto DataStore lite uses reflection
 -keepclassmembers class * implements com.google.protobuf.MessageLite { <fields>; }
+
+# Required for navigation in the settings activity
+-keep class * implements io.github.canvas.ui.settings.Route
